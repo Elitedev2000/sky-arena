@@ -1,10 +1,16 @@
 /* -->> Header Part <<-- */
 
 body {
-  /* .element { */
-    background: radial-gradient(circle at top left, #9c27b0, #ff9800);
+    /* background: linear-gradient(45deg, rgb(227,141,222), 350px, #fff); */
+    background: linear-gradient(45deg, rgb(192, 86, 160), rgb(231, 138, 243), white);
+    width: 100vh;
+    height: 100%;
 }
 
+.boy {
+  width: 300px;
+  height: 100vh;
+}
 
 .site-navbar {
   display: flex;
