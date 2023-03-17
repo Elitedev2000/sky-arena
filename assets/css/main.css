@@ -1,10 +1,19 @@
 /* -->> Header Part <<-- */
 
 body {
-    /* background: linear-gradient(45deg, rgb(227,141,222), 350px, #fff); */
-    background: linear-gradient(45deg, rgb(192, 86, 160), rgb(231, 138, 243), white);
-    width: 100vh;
-    height: 100%;
+  /* background: linear-gradient(45deg, rgb(227,141222), 350px, #fff); */
+  /* background: linear-gradient(
+    45deg,
+    #845ec2,
+    #d65db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f,
+    #f9f871
+    ); */
+    background: radial-gradient(closest-side at 500px 500px, orange, red);
+  width: 100vh;
+  height: 100%;
 }
 
 .boy {
