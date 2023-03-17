@@ -1,6 +1,11 @@
+/* -->> Header Part <<-- */
+
+body {
+  /* .element { */
+    background: radial-gradient(circle at top left, #9c27b0, #ff9800);
+}
 
 
-/*Header Css StaRT*/
 .site-navbar {
   display: flex;
   position: relative;
