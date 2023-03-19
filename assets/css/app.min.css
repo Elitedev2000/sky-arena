@@ -1885,7 +1885,8 @@ header.fugu-header-section {
 }
 header.fugu-header-section.sticky-menu {
   padding: 10px 0;
-  background-color: #fff;
+  /* background-image: linear-gradient( 102.4deg,  rgba(253,189,85,1) 7.8%, rgba(249,131,255,1) 100.3% ); */
+  background-image: linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
   box-shadow: 0 4px 80px rgba(0, 0, 0, 0.06);
 }
 .site-menu-main .nav-link-item {
@@ -2489,7 +2490,7 @@ footer.fugo--footer-section.white-version .fugo--footer-bottom p {
 .fugu-btn {
   font-size: 16px;
   line-height: 24px;
-  border-radius: 3px;
+  border-radius: 30px;
   padding: 20px 55px;
   font-weight: 700;
   font-family: Inter, sans-serif;
@@ -3768,8 +3769,19 @@ a.fugu--readmore-btn span:before {
   overflow: hidden;
   position: relative;
   padding: 210px 0 130px;
-  background-color: var(--warning-400);
+  background-color:#fff099;
+  background-image:
+  radial-gradient(at 86% 77%, hsla(2,0%,100%,1) 0px, transparent 50%),
+  radial-gradient(at 15% 7%, hsla(334,0%,100%,1) 0px, transparent 50%),
+  radial-gradient(at 49% 53%, hsla(136,0%,100%,1) 0px, transparent 50%),
+  radial-gradient(at 90% 44%, hsla(275,0%,100%,1) 0px, transparent 50%),
+  radial-gradient(at 56% 7%, hsla(334,0%,100%,1) 0px, transparent 50%),
+  radial-gradient(at 94% 11%, hsla(334,0%,100%,1) 0px, transparent 50%),
+  radial-gradient(at 48% 97%, hsla(22,96%,60%,0.64) 0px, transparent 50%),
+  radial-gradient(at 7% 87%, hsla(252,83%,45%,0.72) 0px, transparent 50%),
+  radial-gradient(at 22% 78%, hsla(262,100%,51%,0.53) 0px, transparent 50%);
 }
+
 @media (max-width: 991px) {
   .fugu-hero-section {
     padding: 170px 0 0;
@@ -3923,8 +3935,26 @@ a.fugu-app-btn:last-child {
 .fugu-hero-thumb {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 300px;
 }
+
+.fugu-hero-thumb .shape-hero {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: -20%;
+  z-index: -1;
+  background-color:hsla(13,89%,74%,1);
+background-image:
+radial-gradient(at 52% 13%, hsla(289,100%,47%,1) 0px, transparent 50%),
+radial-gradient(at 37% 75%, hsla(280,100%,47%,1) 0px, transparent 50%),
+radial-gradient(at 42% 41%, hsla(13,100%,47%,1) 0px, transparent 50%),
+radial-gradient(at 67% 38%, hsla(305,100%,47%,1) 0px, transparent 50%),
+radial-gradient(at 63% 66%, hsla(15,100%,47%,1) 0px, transparent 50%);
+} 
+
 @media (max-width: 1399px) {
   .fugu-hero-thumb {
     right: -10%;
