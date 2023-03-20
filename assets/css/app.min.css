@@ -1984,10 +1984,9 @@ header.fugu--header-section.fugu--header-two.sticky-menu {
   margin: 25px 0 0;
   padding: 0 33px;
 }
-
-header-login-btn @media (max-width: 991px) {
+@media (max-width: 991px) {
   .fugu-responsive-btn {
-    display: block;
+    display: none;
   }
 }
 footer.fugu-footer-section {
@@ -5814,11 +5813,12 @@ a.fugu-faq-btn:hover {
 }
 .fugu-video-thumb {
   position: relative;
-  border-radius: 30px;
 }
 .fugu-video-thumb img {
   width: 100%;
   height: 100%;
+  border-radius: 50px;
+  
 }
 @media (max-width: 991px) {
   .fugu-video-thumb {
@@ -5827,6 +5827,8 @@ a.fugu-faq-btn:hover {
 }
 .fugu-play-btn,
 a.fugu-popup {
+  width: 100px;
+  height: 100px;
   position: absolute;
   top: 50%;
   left: 50%;
