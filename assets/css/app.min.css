@@ -1960,6 +1960,9 @@ header.fugu--header-section.fugu--header-two.sticky-menu {
   margin: 25px 0 0;
   padding: 0 33px;
 }
+
+header-login-btn
+
 @media (max-width: 991px) {
   .fugu-responsive-btn {
     display: block;
@@ -3947,22 +3950,22 @@ a.fugu-app-btn:last-child {
   left: -20%;
   z-index: -1;
   background-color:hsla(13,89%,74%,1);
-background-image:
-radial-gradient(at 52% 13%, hsla(289,100%,47%,1) 0px, transparent 50%),
-radial-gradient(at 37% 75%, hsla(280,100%,47%,1) 0px, transparent 50%),
-radial-gradient(at 42% 41%, hsla(13,100%,47%,1) 0px, transparent 50%),
-radial-gradient(at 67% 38%, hsla(305,100%,47%,1) 0px, transparent 50%),
-radial-gradient(at 63% 66%, hsla(15,100%,47%,1) 0px, transparent 50%);
+  background-image:
+  radial-gradient(at 52% 13%, hsla(289,100%,47%,1) 0px, transparent 50%),
+  radial-gradient(at 37% 75%, hsla(280,100%,47%,1) 0px, transparent 50%),
+  radial-gradient(at 42% 41%, hsla(13,100%,47%,1) 0px, transparent 50%),
+  radial-gradient(at 67% 38%, hsla(305,100%,47%,1) 0px, transparent 50%),
+  radial-gradient(at 63% 66%, hsla(15,100%,47%,1) 0px, transparent 50%);
 } 
 
 @media (max-width: 1399px) {
   .fugu-hero-thumb {
-    right: -10%;
+    right: 10%;
   }
 }
 @media (max-width: 1199px) {
   .fugu-hero-thumb {
-    right: -24%;
+    right: 24%;
   }
 }
 @media (max-width: 1100px) {
@@ -3973,30 +3976,33 @@ radial-gradient(at 63% 66%, hsla(15,100%,47%,1) 0px, transparent 50%);
 @media (max-width: 991px) {
   .fugu-hero-thumb {
     position: relative;
-    right: 0 !important;
+    /* right: 0 !important; */
+    margin: auto;
   }
 }
+
 .fugu-shape1 {
   position: absolute;
   bottom: 0;
   left: 0;
   z-index: -1;
 }
-.fugu-shape2 {
-  position: absolute;
-  top: -20%;
-  left: -25%;
-  z-index: -1;
-}
+
 .fugu-hero-star {
   position: absolute;
-  top: 0;
-  right: 38%;
+  top: 15%;
+  right: 40%;
+}
+
+.fugu-hero-star img {
+  width: 200px;
+  height: 200px;
   -webkit-animation: rotate-animation 10s infinite linear;
   -moz-animation: rotate-animation 10s infinite linear;
   -o-animation: rotate-animation 10s infinite linear;
   animation: rotate-animation 10s infinite linear;
 }
+
 @keyframes rotate-animation {
   0% {
     transform: rotate(0);
@@ -4393,8 +4399,16 @@ radial-gradient(at 63% 66%, hsla(15,100%,47%,1) 0px, transparent 50%);
   position: absolute;
   animation: zoom-in-zoom-out 5s ease-out infinite;
 }
+
+@media (max-width: 991px) {
+  .fugu-hero-star {
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
-  .fugu--hero-mocup {
+  .fugu--hero-mocup,
+  .fugu-hero-star {
     display: none;
   }
 }
