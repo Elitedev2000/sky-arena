@@ -3956,7 +3956,13 @@ a.fugu-app-btn:last-child {
   radial-gradient(at 42% 41%, hsla(13,100%,47%,1) 0px, transparent 50%),
   radial-gradient(at 67% 38%, hsla(305,100%,47%,1) 0px, transparent 50%),
   radial-gradient(at 63% 66%, hsla(15,100%,47%,1) 0px, transparent 50%);
+  position: relative;
 } 
+
+.fugu-hero-thumb .shape-circle {
+  width: 130px;
+  height: 130px;
+}
 
 @media (max-width: 1399px) {
   .fugu-hero-thumb {
@@ -3990,13 +3996,13 @@ a.fugu-app-btn:last-child {
 
 .fugu-hero-star {
   position: absolute;
-  top: 15%;
-  right: 40%;
+  top: 25%;
+  right: 36%;
 }
 
 .fugu-hero-star img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   -webkit-animation: rotate-animation 10s infinite linear;
   -moz-animation: rotate-animation 10s infinite linear;
   -o-animation: rotate-animation 10s infinite linear;
