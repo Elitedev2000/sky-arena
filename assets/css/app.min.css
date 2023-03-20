@@ -5814,6 +5814,7 @@ a.fugu-faq-btn:hover {
 }
 .fugu-video-thumb {
   position: relative;
+  border-radius: 30px;
 }
 .fugu-video-thumb img {
   width: 100%;
