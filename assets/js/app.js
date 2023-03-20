@@ -4,33 +4,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 (function ($) {
   "use strict";
-  /*------------------------------------------------------------------
-  [Table of contents]
-  fugu STICKY MENU JS INIT
-  fugu COUNTER JS INIT
-  fugu TEXT SLIDER
-  fugu TEXT SLIDER 2
-  fugu CLIENT SLIDER
-  fugu CLIENT SLIDER 2
-  fugu TESTIMONIAL SLIDER
-  fugu TESTIMONIAL SLIDER 2
-  fugu PRICING TABLE JS INIT
-  fugu SCROLL EFFECT TWO JS INIT 01
-  fugu SCROLL EFFECT TWO JS INIT 02
-  fugu MAGNIFIC POPUP JS INIT
-  fugu GALLERY MASONAY FILTER JS 01
-  fugu GALLERY MASONAY FILTER JS 02
-  fugu GALLERY MASONAY FILTER JS 03
-  fugu MAP JS
-  
-  -------------------------------------------------------------------*/
-
-  /*--------------------------------------------------------------
-  CUSTOM PRE DEFINE FUNCTION
-  ------------------------------------------------------------*/
-
-  /* is_exist() */
-
   jQuery.fn.is_exist = function () {
     return this.length;
   };
