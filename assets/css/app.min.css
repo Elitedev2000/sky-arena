@@ -3991,14 +3991,14 @@ a.fugu-app-btn:last-child {
   width: 85%;
 }
 
-.fugu-hero-thumb .shape-circle {
+/* .fugu-hero-thumb .shape-circle {
   width: 180px;
   height: 180px;
   position: absolute;
   top: 60%;
   right: 50%;
   animation: moving 5s  infinite;
-}
+} */
 
 @keyframes moving {
   0% {
@@ -4043,8 +4043,8 @@ a.fugu-app-btn:last-child {
 
 .fugu-hero-star {
   position: absolute;
-  top: 25%;
-  right: 36%;
+  top: 15%;
+  right: 10%;
 }
 
 .fugu-hero-star img {
