@@ -1894,6 +1894,7 @@ radial-gradient(at 29% 31%, hsla(134,93%,74%,1) 0px, transparent 50%);
 .max-w-full {
   max-width: 100% !important;
 }
+
 header.fugu-header-section {
   position: fixed;
   z-index: 9;
@@ -3970,8 +3971,8 @@ a.fugu-app-btn:last-child {
   height: 500px;
   border-radius: 50%;
   position: absolute;
-  top: 15%;
-  left: -20%;
+  top: 20%;
+  right: -30%;
   z-index: -1;
   background-color: hsla(13, 89%, 74%, 1);
   background-image: radial-gradient(
@@ -3986,12 +3987,17 @@ a.fugu-app-btn:last-child {
   /* position: relative; */
 }
 
+.fugu-hero-thumb img {
+  width: 370px;
+
+}
+
 .fugu-hero-thumb .shape-circle {
   width: 180px;
   height: 180px;
   position: absolute;
   top: 60%;
-  right: -50%;
+  right: -40%;
   animation: moving 10s  infinite;
 }
 
@@ -4039,8 +4045,8 @@ a.fugu-app-btn:last-child {
 
 .fugu-hero-star {
   position: absolute;
-  top: 25%;
-  right: 36%;
+  top: 20%;
+  right: 38%;
 }
 
 .fugu-hero-star img {
@@ -7561,6 +7567,11 @@ a.fugu-pricing-btn.active {
   transform: rotate(-5deg);
   margin-left: 60px;
 }
+
+.fugu-apps-thumb img {
+  width: 350px;
+}
+
 @media (max-width: 1200px) {
   .fugu-apps-thumb {
     margin: 0;
@@ -7576,6 +7587,11 @@ a.fugu-pricing-btn.active {
 .fugu-apps-thumb.fugu-apps-thumb2 {
   transform: rotate(-5deg);
 }
+
+.fugu-apps-thumb2 img {
+  width: 300px;
+}
+
 .fugu-shape3 {
   position: absolute;
   top: 0;
