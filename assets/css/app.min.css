@@ -3961,8 +3961,9 @@ a.fugu-app-btn:last-child {
 }
 .fugu-hero-thumb {
   position: absolute;
-  bottom: 0;
-  right: 300px;
+  top: 15%;
+  /* bottom: 0; */
+  /* right: 300px; */
 }
 
 .fugu-hero-thumb .shape-hero {
@@ -3970,8 +3971,8 @@ a.fugu-app-btn:last-child {
   height: 500px;
   border-radius: 50%;
   position: absolute;
-  top: 15%;
-  left: -20%;
+  top: 0;
+  left: 10%;
   z-index: -1;
   background-color: hsla(13, 89%, 74%, 1);
   background-image: radial-gradient(
@@ -3986,12 +3987,16 @@ a.fugu-app-btn:last-child {
   /* position: relative; */
 }
 
+.fugu-hero-thumb img {
+  width: 85%;
+}
+
 .fugu-hero-thumb .shape-circle {
   width: 180px;
   height: 180px;
   position: absolute;
   top: 60%;
-  right: -50%;
+  right: 50%;
   animation: moving 5s  infinite;
 }
 
