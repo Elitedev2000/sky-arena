@@ -7562,7 +7562,7 @@ a.fugu-pricing-btn.active {
 }
 .fugu-apps-thumb {
   position: relative;
-  transform: rotate(-5deg);
+  /* transform: rotate(-5deg); */
   margin-left: 60px;
 }
 @media (max-width: 1200px) {
@@ -7577,9 +7577,9 @@ a.fugu-pricing-btn.active {
     transform: none !important;
   }
 }
-.fugu-apps-thumb.fugu-apps-thumb2 {
+/* .fugu-apps-thumb.fugu-apps-thumb2 {
   transform: rotate(-5deg);
-}
+} */
 .fugu-shape3 {
   position: absolute;
   top: 0;
@@ -8328,7 +8328,7 @@ a.fugu-pricing-btn.active {
 .fugu--artwork-thumb {
   display: inline-block;
   position: relative;
-  transform: rotate(3deg);
+  /* transform: rotate(3deg); */
 }
 @media (max-width: 991px) {
   .fugu--artwork-thumb {
