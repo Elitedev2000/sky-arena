@@ -13045,7 +13045,7 @@ span.rn-badge-card::before {
   top: 0;
   z-index: 999;
   width: 100%;
-  backdrop-filter: blur(10px);
+  background-image: linear-gradient( 109.6deg,  rgba(232,252,252,1) 11.2%, rgba(252,215,134,1) 56.2%, rgba(247,124,124,1) 100.2% );
 }
 .rn-header.sticky {
   background-color: #1515218c;
@@ -23966,13 +23966,11 @@ radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%) !important;
 .active-light-mode .logo-custom-css .logo-dark {
   display: block;
 }
-.active-light-mode .logo-custom-css .logo-light {
 
-}
 .active-light-mode .logo-custom-css .logo-light img {
   width: 65px;
   height: 65px;
-
+  display: block;
 }
 .active-light-mode .logo-custom-css::after {
   background: var(--color-border-white);
