@@ -3992,17 +3992,18 @@ a.fugu-app-btn:last-child {
   position: absolute;
   top: 60%;
   right: -50%;
-  animation: moving 5s  infinite;
+  animation: moving 10s  infinite;
 }
 
 @keyframes moving {
   0% {
-    transform: translateY(0) rotateX(0);
-    transform-origin: 50% 0;
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-70%);
   }
   100% {
-    transform: translateY(-100%) rotateX(-180deg);
-    transform-origin: 50% 100%;
+    transform: translateY(0);
   }
 }
 
