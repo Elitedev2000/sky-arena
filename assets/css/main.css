@@ -509,17 +509,6 @@
     opacity: 0;
     pointer-events: none;
   }
-  /* .site-menu-main .sub-menu.megamenu.megadropdown-center {
-    transform: translateX(-50%) translateY(-10px);
-  } */
-  /* .site-menu-main .sub-menu.megamenu.megadropdown-right {
-    right: 0%;
-    transform: translateX(0%) translateY(10px);
-  } */
-  /* .site-menu-main .sub-menu.megamenu.megadropdown-left {
-    left: 0%;
-    transform: translateX(0%) translateY(10px);
-  } */
 }
 
 @media (min-width: 1200px) {
