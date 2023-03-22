@@ -3995,9 +3995,7 @@ a.fugu-app-btn:last-child {
 }
 
 @media (max-width: 1399px) {
-  .fugu-hero-thumb {
-    right: 10%;
-  }
+  
 }
 @media (max-width: 1199px) {
   .fugu-hero-thumb,
@@ -4015,10 +4013,7 @@ a.fugu-app-btn:last-child {
   }
 }
 @media (max-width: 1100px) {
-  .fugu-hero-thumb,
-  .fugu-hero-star {
-    display: none;
-  }
+  
 }
 @media (max-width: 991px) {
   .fugu-hero-thumb,
