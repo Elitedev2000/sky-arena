@@ -1,5 +1,3 @@
-
-
  const menu = document.querySelector(".menu-block");
  const menuMain = menu.querySelector(".site-menu-main");
  const submenuAll = menu.querySelectorAll(".sub-menu");
