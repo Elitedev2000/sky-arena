@@ -51,8 +51,9 @@
   
 }
 
-.site-header {
-  background-color: #909294;
+.fugu-header-section {
+  background-color: #f5faff;
+  /* z-index: 1; */
 }
 
 .site-header--absolute {
@@ -373,7 +374,7 @@
 }
 
 .site-menu-main .nav-link-item {
-  color: #fff;
+  color: #000;
   font-size: 16px;
   font-weight: 600;
   font-style: normal;

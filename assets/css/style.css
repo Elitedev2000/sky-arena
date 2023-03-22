@@ -134,7 +134,6 @@ radial-gradient(at 80% 50%, hsla(19,100%,76%,1) 0px, transparent 50%),
 radial-gradient(at 0% 100%, hsla(61,100%,77%,1) 0px, transparent 50%),
 radial-gradient(at 80% 100%, hsla(281,100%,70%,1) 0px, transparent 50%),
 radial-gradient(at 0% 0%, hsla(22,100%,76%,1) 0px, transparent 50%);
-margin-top: 40px;
 }
 
 h1,
@@ -7813,10 +7812,6 @@ a:hover {
 
 .bg-color--3 {
   background: var(--background-color-3) !important;
-}
-
-.bg-color--2 {
-  
 }
 
 .bg-color--1 {
@@ -24133,4 +24128,3 @@ body.active-light-mode {
 .active-light-mode .bg-image-svg-1.with-down-shadow::after {
   background-image: linear-gradient(to top, #0c0c2100 0%, #edf0f2ab 87%);
 }
-/*# sourceMappingURL=../maps/style.css.map */
