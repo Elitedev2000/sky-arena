@@ -3982,14 +3982,6 @@ a.fugu-app-btn:last-child {
   width: 85%;
 }
 
-/* .fugu-hero-thumb .shape-circle {
-  width: 180px;
-  height: 180px;
-  position: absolute;
-  top: 60%;
-  right: 50%;
-  animation: moving 5s  infinite;
-} */
 
 @keyframes moving {
   0% {
@@ -4008,17 +4000,31 @@ a.fugu-app-btn:last-child {
   }
 }
 @media (max-width: 1199px) {
-  .fugu-hero-thumb {
-    right: 24%;
+  .fugu-hero-thumb,
+  .shape-hero,
+  .fugu-hero-star {
+    width: 40%;
+  }
+  .fugu-hero-thumb .shape-hero {
+    width: 380px;
+    height: 380px;
+  }
+  .fugu-hero-star {
+    margin-right: -25%;
+    margin-top: -4%;
   }
 }
 @media (max-width: 1100px) {
-  .fugu-hero-thumb {
-    right: -27%;
+  .fugu-hero-thumb,
+  .fugu-hero-star {
+    display: none;
   }
 }
 @media (max-width: 991px) {
-  .fugu-hero-thumb {
+  .fugu-hero-thumb,
+  .shape-hero,
+  .shape-hero img,
+  .fugu-hero-star {
     display: none;
   }
 }
