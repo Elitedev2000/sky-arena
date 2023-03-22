@@ -6535,10 +6535,10 @@ a.fugu-popup img:hover {
   font-family: Inter, sans-serif;
 }
 .fugu-brand-logo {
-  margin: 10px 0;
+  margin: 10px 20px;
 }
 .fugu-brand-logo img {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .fugu-icon-list {
   margin-top: 55px;
