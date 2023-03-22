@@ -51,6 +51,10 @@
   
 }
 
+.site-header {
+  background-color: #909294;
+}
+
 .site-header--absolute {
   position: absolute;
   top: 0;
