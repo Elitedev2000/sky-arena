@@ -324,6 +324,7 @@ button:not(:disabled) {
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+    
   }
 }
 @media (min-width: 1200px) {
