@@ -321,56 +321,27 @@ button:not(:disabled) {
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
-    background-image: radial-gradient(circle farthest-corner at 10.2% 55.8%,
-  rgba(252, 37, 103, 1) 0%,
-  rgba(250, 38, 151, 1) 46.2%,
-  rgba(186, 8, 181, 1) 90.1%);
-  background-size: cover;
-  width: 100%;
   }
 }
 @media (min-width: 768px) {
   .container {
-    max-width: 740px;
-    background-image: radial-gradient(circle farthest-corner at 10.2% 55.8%,
-  rgba(252, 37, 103, 1) 0%,
-  rgba(250, 38, 151, 1) 46.2%,
-  rgba(186, 8, 181, 1) 90.1%);
-  background-size: cover;
-  width: 100%;
+    max-width: 720px;
   }
 }
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
-    background-image: radial-gradient(circle farthest-corner at 10.2% 55.8%,
-  rgba(252, 37, 103, 1) 0%,
-  rgba(250, 38, 151, 1) 46.2%,
-  rgba(186, 8, 181, 1) 90.1%);
-  background-size: cover;
-  width: 100%;
+    
   }
 }
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
-    background-image: radial-gradient(circle farthest-corner at 10.2% 55.8%,
-  rgba(252, 37, 103, 1) 0%,
-  rgba(250, 38, 151, 1) 46.2%,
-  rgba(186, 8, 181, 1) 90.1%);
-  background-size: cover;
-  width: 100%;
   }
 }
 @media (min-width: 1680px) {
   .container {
     max-width: 1600px;
-    background-image: radial-gradient(circle farthest-corner at 10.2% 55.8%,
-  rgba(252, 37, 103, 1) 0%,
-  rgba(250, 38, 151, 1) 46.2%,
-  rgba(186, 8, 181, 1) 90.1%);
-  background-size: cover;
-  width: 100%;
   }
 }
 .row {
