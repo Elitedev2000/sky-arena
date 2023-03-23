@@ -88,6 +88,7 @@
     scroll-behavior: smooth;
   }
 }
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -101,6 +102,10 @@ body {
   rgba(186, 8, 181, 1) 90.1%);
   background-size: cover;
   width: 100%;
+}
+header {
+  margin: 0 auto;
+
 }
 .h1,
 .h2,
