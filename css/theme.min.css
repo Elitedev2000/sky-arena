@@ -96,16 +96,14 @@ body {
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   text-align: var(--bs-body-text-align);
-  background-image: radial-gradient(circle farthest-corner at 10.2% 55.8%,
-  rgba(252, 37, 103, 1) 0%,
-  rgba(250, 38, 151, 1) 46.2%,
-  rgba(186, 8, 181, 1) 90.1%);
-  background-size: cover;
-  width: 100%;
 }
 header {
   margin: 0 auto;
-
+}
+.all-color {
+  background: rgb(252,37,108);
+  background: linear-gradient(90deg, rgba(252,37,108,1) 40%, rgba(188,9,179,1) 79%);
+  background-size: contain;
 }
 .h1,
 .h2,
