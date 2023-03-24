@@ -15762,7 +15762,7 @@ figcaption {
   .tilt-image-banner-16 {
     display: flex;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 17%;
 
   }
 }
@@ -15776,11 +15776,17 @@ figcaption {
   .tilt-image-banner-16 .joined-people-wrapper {
     position: static;
   }
+  .tilt-image-banner-16 {
+    margin-top: 17%;
+  }
 }
 @media only screen and (max-width: 479px) {
   .tilt-image-banner-16 .joined-people-wrapper {
     bottom: -14px;
     left: 4px;
+  }
+  .tilt-image-banner-16 {
+    margin-top: 17%;
   }
 }
 
